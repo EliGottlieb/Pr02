@@ -13,12 +13,10 @@
         style="position: relative; width: 100%"
       />
     </div>
-    <!--img alt="Vue logo" src="https://vuejs.org/images/logo.png" /-->
   </div>
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld.vue';
 import Header from './components/Header.vue';
 import TableHeadings from './components/TableHeadings.vue';
 import DataTable from './components/DataTable.vue';
@@ -26,7 +24,6 @@ import DataTable from './components/DataTable.vue';
 export default {
   name: 'App',
   components: {
-    //HelloWorld,
     Header,
     TableHeadings,
     DataTable,
@@ -39,10 +36,6 @@ export default {
   data: () => ({
     var01: [
       ['title01', 'description01', '2022-11-03', 'med', false],
-      ['title02', 'description02', '2022-11-03', 'med', true],
-      ['title02', 'description02', '2022-11-03', 'med', true],
-      ['title02', 'description02', '2022-11-03', 'med', true],
-      ['title02', 'description02', '2022-11-03', 'med', true],
       ['title02', 'description02', '2022-11-03', 'med', true],
     ],
   }),
